@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-// columns: array
-// sortColumn:Object
-// onSort:function
+
 class TableHeader extends Component {
   raiseSort = (path) => {
     const sortColumn = { ...this.props.sortColumn };
